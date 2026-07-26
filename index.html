@@ -3,63 +3,115 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>আমার কবিতার ঘর</title>
+
+<title>রাশিক ইসলাম — কবিতা</title>
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;600;700&display=swap" rel="stylesheet">
 
 <style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
 body{
-    margin:0;
-    font-family: "Hind Siliguri", sans-serif;
-    background:#f5f5f5;
-    color:#222;
+font-family:'Hind Siliguri',sans-serif;
+background:#f5f5f5;
+color:#222;
 }
 
 header{
-    background: linear-gradient(135deg, #4b2e83, #7b2cbf, #9d4edd);
-    color:white;
-    text-align:center;
-    padding:70px 20px;
-    border-bottom-left-radius:30px;
-    border-bottom-right-radius:30px;
+background:linear-gradient(135deg,#5f2eea,#b245ff);
+color:white;
+text-align:center;
+padding:70px 20px;
+border-bottom-left-radius:40px;
+border-bottom-right-radius:40px;
 }
 
-main{
-    max-width:900px;
-    margin:auto;
-    padding:20px;
+header h1{
+font-size:42px;
+margin-bottom:15px;
 }
 
-.card{
-    background:white;
-    padding:20px;
-    border-radius:12px;
-    margin:20px 0;
-    box-shadow:0 2px 10px rgba(0,0,0,.1);
-}
-
-footer{
-    text-align:center;
-    padding:30px;
-    color:#666;
+header p{
+font-size:22px;
+margin-bottom:25px;
 }
 
 .button{
-    display:inline-block;
-    margin:8px;
-    padding:12px 24px;
-    background:white;
-    color:#6a1b9a !important;
-    text-decoration:none;
-    border-radius:30px;
-    font-weight:bold;
-    transition:0.3s;
+display:inline-block;
+margin:8px;
+padding:12px 24px;
+background:white;
+color:#6a1b9a !important;
+text-decoration:none !important;
+border-radius:30px;
+font-weight:bold;
+transition:.3s;
 }
 
 .button:hover{
-    background:#f3e5f5;
+background:#f3e5f5;
+}
+
+.button:visited{
+color:#6a1b9a !important;
+text-decoration:none;
+}
+
+.button:active{
+color:#6a1b9a !important;
+}
+
+main{
+max-width:900px;
+margin:auto;
+padding:20px;
+}
+
+.card{
+background:white;
+padding:25px;
+margin:20px 0;
+border-radius:18px;
+box-shadow:0 6px 20px rgba(0,0,0,.08);
+}
+
+.card h2{
+margin-bottom:15px;
+font-size:34px;
+}
+
+.poem-link{
+display:inline-block;
+font-size:24px;
+font-weight:bold;
+text-decoration:none !important;
+color:#6a1b9a !important;
+}
+
+.poem-link:visited{
+color:#6a1b9a !important;
+}
+
+.poem-link:hover{
+color:#8e24aa !important;
+}
+
+.poem-link:active{
+color:#6a1b9a !important;
+}
+
+footer{
+text-align:center;
+padding:35px;
+color:#666;
+font-size:18px;
 }
 
 </style>
@@ -74,13 +126,13 @@ footer{
 
 <p>কবিতা • অনুভূতি • জীবন</p>
 
-<p>
-<a href="about.html" style="color:white;">👤 আমার সম্পর্কে</a>
-</p>
+<a href="about.html" class="button">
+👤 আমার সম্পর্কে
+</a>
 
-<p>
-<a href="poems.html" style="color:white;">📚 সব কবিতা</a>
-</p>
+<a href="poems.html" class="button">
+📚 সব কবিতা
+</a>
 
 </header>
 
@@ -90,8 +142,8 @@ footer{
 
 <h2>স্বাগতম</h2>
 
-<p>
-এটি আমার ব্যক্তিগত কবিতার ওয়েবসাইট।
+<p style="font-size:24px;line-height:1.9;">
+এটি আমার ব্যক্তিগত কবিতার ওয়েবসাইট।<br>
 এখানে আমি আমার লেখা কবিতা প্রকাশ করব।
 </p>
 
@@ -101,11 +153,9 @@ footer{
 
 <h2>সাম্প্রতিক কবিতা</h2>
 
-<p>
-<a href="kobita/prothom-kobita.html">
-📖 তোমাকে দেখার আশায়!
+<a class="poem-link" href="kobita/prothom-kobita.html">
+📖 তোমাকে দেখার আশায়!
 </a>
-</p>
 
 </div>
 
@@ -118,5 +168,4 @@ footer{
 </footer>
 
 </body>
-
 </html>
