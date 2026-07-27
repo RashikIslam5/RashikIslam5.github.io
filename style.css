@@ -1,1 +1,132 @@
+/* ===== Google Font ===== */
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&display=swap');
 
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:'Hind Siliguri',sans-serif;
+    background:#f5f7fb;
+    color:#222;
+    line-height:1.8;
+}
+
+/* ===== Header ===== */
+
+header{
+    background:linear-gradient(135deg,#6a1b9a,#8e24aa);
+    color:#fff;
+    text-align:center;
+    padding:70px 20px;
+    border-bottom-left-radius:40px;
+    border-bottom-right-radius:40px;
+}
+
+header h1{
+    font-size:42px;
+    margin-bottom:12px;
+}
+
+header p{
+    font-size:20px;
+    opacity:.95;
+}
+
+nav{
+    margin-top:30px;
+}
+
+nav a{
+    display:inline-block;
+    margin:8px;
+    padding:12px 26px;
+    background:#fff;
+    color:#6a1b9a;
+    text-decoration:none;
+    border-radius:30px;
+    font-weight:bold;
+    transition:.3s;
+}
+
+nav a:hover{
+    transform:translateY(-3px);
+    background:#f3e5f5;
+}
+
+/* ===== Main ===== */
+
+main{
+    max-width:1000px;
+    margin:auto;
+    padding:30px 20px;
+}
+
+/* ===== Card ===== */
+
+.card{
+    background:#fff;
+    margin:25px 0;
+    padding:30px;
+    border-radius:18px;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+}
+
+.card h2{
+    margin-bottom:18px;
+    color:#6a1b9a;
+}
+
+.card a{
+    color:#6a1b9a;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.card a:hover{
+    text-decoration:underline;
+}
+
+/* ===== Footer ===== */
+
+footer{
+    text-align:center;
+    padding:35px;
+    color:#666;
+    margin-top:40px;
+}
+
+/* ===== Responsive ===== */
+
+@media(max-width:768px){
+
+header h1{
+    font-size:30px;
+}
+
+header p{
+    font-size:18px;
+}
+
+nav a{
+    display:block;
+    margin:10px auto;
+    width:220px;
+}
+
+.card{
+    padding:22px;
+}
+
+}
