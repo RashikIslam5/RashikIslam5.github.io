@@ -1,2 +1,141 @@
-/* Rashik Islam — Poetry Website */
-/* Version 2.1 */
+/* =========================================
+   Rashik Islam — Poetry Website
+   Version 2.1
+========================================= */
+
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:'Hind Siliguri',sans-serif;
+    background:#f5f7fb;
+    color:#222;
+    line-height:1.8;
+}
+
+/* ---------- Header ---------- */
+
+header{
+    background:linear-gradient(135deg,#5f2eea,#8f4bff,#b245ff);
+    color:#fff;
+    text-align:center;
+    padding:80px 20px 60px;
+    border-bottom-left-radius:40px;
+    border-bottom-right-radius:40px;
+    box-shadow:0 10px 25px rgba(0,0,0,.15);
+}
+
+header h1{
+    font-size:42px;
+    margin-bottom:15px;
+}
+
+header p{
+    font-size:20px;
+    opacity:.95;
+}
+
+/* ---------- Navigation ---------- */
+
+nav{
+    margin-top:30px;
+}
+
+nav a{
+    display:inline-block;
+    margin:8px;
+    padding:12px 24px;
+    background:#fff;
+    color:#6a1b9a;
+    text-decoration:none;
+    border-radius:30px;
+    font-weight:600;
+    transition:.3s;
+}
+
+nav a:hover{
+    transform:translateY(-2px);
+    box-shadow:0 8px 18px rgba(0,0,0,.15);
+}
+
+/* ---------- Main ---------- */
+
+main{
+    max-width:900px;
+    margin:40px auto;
+    padding:20px;
+}
+
+/* ---------- Card ---------- */
+
+.card{
+    background:#fff;
+    padding:25px;
+    margin-bottom:25px;
+    border-radius:18px;
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+}
+
+.card h2{
+    margin-bottom:15px;
+    color:#5f2eea;
+}
+
+.card p{
+    font-size:18px;
+}
+
+/* ---------- Poem Link ---------- */
+
+.poem-link{
+    text-decoration:none;
+    color:#6a1b9a;
+    font-size:22px;
+    font-weight:700;
+}
+
+.poem-link:hover{
+    color:#8f4bff;
+}
+
+/* ---------- Footer ---------- */
+
+footer{
+    text-align:center;
+    padding:35px;
+    color:#666;
+    font-size:16px;
+}
+
+/* ---------- Mobile ---------- */
+
+@media(max-width:768px){
+
+header h1{
+    font-size:32px;
+}
+
+header p{
+    font-size:18px;
+}
+
+nav a{
+    display:block;
+    margin:10px auto;
+    width:220px;
+}
+
+.card{
+    padding:20px;
+}
+
+}
