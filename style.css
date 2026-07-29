@@ -667,3 +667,57 @@ padding:25px;
 END OF FILE
 Version 5.0
 =========================== */
+
+/* =========================================
+   POEM COLOR THEMES
+========================================= */
+
+.poem-title{
+    font-size:42px;
+    text-align:center;
+    margin-bottom:25px;
+    font-weight:700;
+    background:linear-gradient(90deg,#7c3aed,#2563eb);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+}
+
+.poem-content{
+    font-size:20px;
+    line-height:2.3;
+    color:#374151;
+}
+
+.poem-content p{
+    margin-bottom:22px;
+    transition:.3s;
+}
+
+.poem-content p:hover{
+    color:#5b21b6;
+    transform:translateX(6px);
+}
+
+/* প্রথম স্তবক */
+
+.poem-content p:first-child{
+    color:#059669;
+    font-weight:600;
+}
+
+/* শেষ স্তবক */
+
+.poem-content p:last-child{
+    color:#dc2626;
+    font-weight:600;
+}
+
+/* উদ্ধৃতি */
+
+blockquote{
+    background:linear-gradient(135deg,#fff7ed,#fef3c7);
+    border-left:6px solid #f59e0b;
+    color:#b45309;
+    border-radius:12px;
+    padding:20px;
+}
